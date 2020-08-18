@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="assets/logo.png">
+    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to my website"/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Home from 'components/HelloWorld.vue';
+import Home from './components/Home.vue';
 
 @Component({
   components: {
